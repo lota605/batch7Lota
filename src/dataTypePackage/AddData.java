@@ -1,6 +1,7 @@
 package dataTypePackage;
 
 public class AddData {
+
     public static void main(String[] args) {
         byte number1=22;
         short number2=150;
