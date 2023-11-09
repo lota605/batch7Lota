@@ -44,9 +44,9 @@ public class Fruits {
         hello();
     }
 
-    public static void main(String[] args) {  //created an object of the class. means i instantiated class
-        Fruits banana = new Fruits();     //banana is a refrence variable or obj
-        banana.name = "Banana";         //initializing/defining the variable
+    public static void main(String[] args) {  //this is main method
+        Fruits banana = new Fruits();     //created an object of the class. means i instantiated class
+        banana.name = "Banana";         //banana is a refrence variable or obj
         banana.color = "Yellow";        //initializing/defining the variable
         size = "Small";
         banana.vitamin = 'A';           //initializing/defining the variable

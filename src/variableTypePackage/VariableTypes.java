@@ -28,7 +28,9 @@ public class VariableTypes {
 
 
 
-    public static void main(String[] args) {    //method can hold variable and statement
+    public static void main(String[] args) {//method can hold variable and statement
+        VariableTypes obj=new VariableTypes();
+        obj.study();
 
         String name="Lota";  //this is local variable
 

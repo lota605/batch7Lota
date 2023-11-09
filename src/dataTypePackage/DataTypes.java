@@ -13,7 +13,7 @@ public class DataTypes {
     double quotation " "--String
     single quotation ' '---char
     
-    String name=lota(here lota is data/value--name is properties and String is data type
+    String name=lota(here lota is data/value--name is properties/variable and String is data type
      int age=100(100 is a data)---age is property
 
 
