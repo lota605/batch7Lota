@@ -36,10 +36,9 @@ public class ifElseStatement3 {
     public void greater(){
         // greater number one way
         Scanner scan = new Scanner(System.in);
-       int num= scan.nextInt();
+        int num=scan.nextInt();
 
-
-        if (num > 50) {
+        if (num > 10) {
             System.out.println("num is greater number");
 
         }
@@ -63,19 +62,23 @@ public class ifElseStatement3 {
     public static void main(String[] args) {
         ifElseStatement3 obj = new ifElseStatement3();
         //obj.Faranheide();
-       //obj.greater();
+       obj.greater();
         //obj.num();
 
         // inside main print greater number
 
-        int a= 100;
-        int b= 50;
-        if(a>b){
-            System.out.println("100 is greater then 50");
-        }
-        else if (a<b){
-            System.out.println("50 is small then 100");
-        }
+//        int a= 100;
+//
+//        if(a>90){
+//            System.out.println("100 is greater then 90");
+//        }
+//        else if (a<=95){
+//            System.out.println("100 is greater then 95");
+//        }
+//        else if(a !=100){
+//            System.out.println("same amount is 100");
+//        }
+
 
     }
 }
