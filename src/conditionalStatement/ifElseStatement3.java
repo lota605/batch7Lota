@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class ifElseStatement3 {
 
+
+
+
+
     /*
     1.take two numbers from user and print the greater number.
     2.take a number from user find that the number is positive of negative
@@ -25,59 +29,61 @@ public class ifElseStatement3 {
         else if((temp==30)||(temp<49)){
             System.out.println("cold");
         }
-        else if((temp==50)||(temp<69)){
+        else if((temp==49)||(temp<69)){
             System.out.println("Watm");
         }
-        else if((temp==70)||(temp<89)){
+        else if((temp==69)||(temp<89)){
             System.out.println("Hot visit Bangladesh?India");
         }
     }
 
+
+
     public void greater(){
-        // greater number one way
-        Scanner scan = new Scanner(System.in);
-        int num=scan.nextInt();
 
-        if (num > 10) {
-            System.out.println("num is greater number");
+        //.take two numbers from user and print the greater number.
+        Scanner scan = new Scanner(System.in);  //Pre defiend class
+        int a=scan.nextInt();
+        System.out.println("The first number is " +a);
+        int b = scan.nextInt();
+        System.out.println("The second number is " +b);
 
+        if(a>b){
+            System.out.println(a + "is The greater number  ");
+        }
+        else if(a==b){
+            System.out.println(a +"is The equal number " + b);
+        }
+        else{
+            System.out.println(a +"is The smaller number ");
         }
 
-
     }
+
+
 
     public void num(){
         // positive and negative number
 
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
-        if(number>0.0){
+
+        if((number==0) || (number>0)){
             System.out.println("this is positive number");
         }
-        else if(number<0.0){
+        else if(number<0){
             System.out.println("This is negative number");
         }
     }
 
     public static void main(String[] args) {
         ifElseStatement3 obj = new ifElseStatement3();
+
         //obj.Faranheide();
        obj.greater();
-        //obj.num();
+       //obj.num();
 
-        // inside main print greater number
 
-//        int a= 100;
-//
-//        if(a>90){
-//            System.out.println("100 is greater then 90");
-//        }
-//        else if (a<=95){
-//            System.out.println("100 is greater then 95");
-//        }
-//        else if(a !=100){
-//            System.out.println("same amount is 100");
-//        }
 
 
     }

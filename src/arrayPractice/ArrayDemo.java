@@ -2,12 +2,17 @@ package arrayPractice;
 
 public class ArrayDemo{
 
+    //Array length is fixed, array can hold multiple element.we can not add or remove data in array.
+
     String [] studentName ={"Arafat","Jobayda","Urmi","Razia"};
-    //studentName is ArrayVariable. index start with 0 and lenght start with 0.
+
+    //studentName is ArrayVariable. index start with 0 and lenght start with 1.
     //we store multipale valu in singla variable in Array.
+
     String location ="lynn";
 
     public void arraya(){
+        System.out.println(studentName.length);   //this is lenghth of array find
         System.out.println(studentName[0]);
         System.out.println(studentName[1]);
         System.out.println(studentName[2]);
