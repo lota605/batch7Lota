@@ -2,7 +2,7 @@ package conditionalStatement;
 
 import java.util.Scanner;
 
-public class ifElseStatement3 {
+public class Temparature {
 
 
 
@@ -19,20 +19,20 @@ public class ifElseStatement3 {
 
      */
     public void Faranheide(){
-        // 3. temparature homework
-        Scanner scan = new Scanner(System.in);
-        int temp =scan.nextInt();
 
-        if(temp<30){
+        Scanner scan = new Scanner(System.in);
+        int temparature =scan.nextInt();
+
+        if(temparature<30){
             System.out.println("very very cold");
         }
-        else if((temp==30)||(temp<49)){
+        else if((temparature==30)||(temparature<49)){
             System.out.println("cold");
         }
-        else if((temp==49)||(temp<69)){
+        else if((temparature==49)||(temparature<69)){
             System.out.println("Watm");
         }
-        else if((temp==69)||(temp<89)){
+        else if((temparature==69)||(temparature<89)){
             System.out.println("Hot visit Bangladesh?India");
         }
     }
@@ -77,7 +77,7 @@ public class ifElseStatement3 {
     }
 
     public static void main(String[] args) {
-        ifElseStatement3 obj = new ifElseStatement3();
+        Temparature obj = new Temparature();
 
         //obj.Faranheide();
        obj.greater();

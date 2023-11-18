@@ -2,7 +2,7 @@ package conditionalStatement;
 
 import java.util.Scanner;
 
-public class ifElseStatement2 {
+public class Mark {
     /*
 
 8:07 PM
@@ -77,7 +77,7 @@ Ask user to enter marks and print the corresponding grade
 
 
         public static void main (String[]args){
-            ifElseStatement2 obj = new ifElseStatement2();
+            Mark obj = new Mark();
            // obj.gread();
             obj.grade1();
 

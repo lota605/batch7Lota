@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PositiveNegative {
 
     //take a number from user find that the number is positive or negative
+   // Exa: 0.1.2.3 is positive and -1,-2,-3,-4.435 is negative
 
     public void positiveNegative(){
         Scanner scan = new Scanner(System.in);

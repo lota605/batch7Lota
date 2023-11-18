@@ -19,8 +19,6 @@ public class DataTypes {
 
      */
 
-
-
         byte age1=100;
         short checkingAccount=32767;
         int saving=2147483647;

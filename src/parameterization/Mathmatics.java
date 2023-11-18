@@ -2,7 +2,7 @@ package parameterization;
 
 public class Mathmatics {
 
-    public void add(int a, int b){
+    public void add(int a, int b){   // parameter
         System.out.println(a+b);
 
     }
@@ -11,7 +11,7 @@ public class Mathmatics {
 
         Mathmatics obj =new Mathmatics();
         obj.add(2,5);
-        obj.add(100,102);
+        obj.add(100,102); // calling the method with arguments
         obj.add(105,106);
         obj.add(222,333);
         obj.add(1000,500);
