@@ -6,7 +6,7 @@ public class Weekdays {
 
 //    write a java function and use the parameter of an integer between1 and 7.it displays the weekday name.
 
-    public void weekday(int a ) {
+    public void weekday(int a ) {    //method signature
         Scanner scan = new Scanner(System.in);
 
 
