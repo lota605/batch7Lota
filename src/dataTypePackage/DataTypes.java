@@ -2,19 +2,23 @@ package dataTypePackage;
 
 public class DataTypes {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {    //main methods used for commands
 
 
 
     /*class can hold variable and method,every class have one main method.
-    method are 2 type ---1.main method, 2.custom method --creating by us.
-    all commands come from main method, and custom method creating by particular groups of code.
+    method are 2 type ---1.main method : all commands come from main method,
+    and custom method creating by particular groups of code.
+
+    2.custom method --creating by us.
 
     double quotation " "--String
     single quotation ' '---char
     
-    String name=lota(here lota is data/value--name is properties/variable and String is data type
+    String name=lota; (here lota is data/value--name is properties/variable and String is data type
      int age=100(100 is a data)---age is property
+
+     Program is a set of instruction for the comuter to follow.
 
 
      */
@@ -56,6 +60,7 @@ ctrl+v= paste
 ctrl+A= select whole page
 ctrl+z= undo
 ctrl+s= save
+
  */
         // ()---parenthesis
         // {}---carle Braces

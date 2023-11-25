@@ -4,9 +4,11 @@ public class ParameterDemo {
 
     //parameterization is part of the method signature
 
-    public void eat(String food){
+    public void eat(String food){    //This is method ( paramiter)
+
         System.out.println(food);
     }
+
 
     public static void main(String[] args) {
         ParameterDemo lota=new ParameterDemo();  //obj of the class

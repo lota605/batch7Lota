@@ -112,9 +112,9 @@ public class LoopExcercise {
     public static void main(String[] args) {
         LoopExcercise obj =new LoopExcercise();
        // obj.loopIntroduction();
-       // obj.whileLoop();
+        obj.whileLoop();
       // forloop();
-        obj.dowhileloop();
+       // obj.dowhileloop();
     }
 
 

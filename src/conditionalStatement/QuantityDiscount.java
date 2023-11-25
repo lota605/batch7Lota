@@ -11,7 +11,7 @@ public class QuantityDiscount {
         int quantity = scan.nextInt();
         int total_cost = quantity * 20;
 
-        if(quantity>100){
+        if(quantity>1000){
             int discount =( (total_cost/100) * 10);
             System.out.println(discount);
         }

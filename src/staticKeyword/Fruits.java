@@ -1,11 +1,13 @@
 package staticKeyword;
 
 public class Fruits {
+
     //instance/global variable or we can say property
-    String name;    //declaring the variable
-    String color;     //declaring the variable
-    static String size="Small"; //static variable and methods belongs to class, not object
-    char vitamin;     //declaring the variable
+
+    String name;                     //declaring the variable
+    String color;                  //declaring the variable
+    static String size="Small";     //static variable and methods belongs to class, not object
+    char vitamin;                   //declaring the variable
 
     // we create static when we see the value of variables are common to all objects.
     /*
@@ -39,7 +41,7 @@ public class Fruits {
 
 
     }
-    public void price(int amount){
+    public void price(int amount){    //inside () is called  paramiter
         System.out.println(amount);
         hello();
     }
@@ -55,6 +57,7 @@ public class Fruits {
         System.out.println(banana.color);
         System.out.println(banana.vitamin);
         System.out.println(size);
+        System.out.println("..............");
 
         hello();  //calling the method ,here not need obj  bcz this is static method
         banana.price(10);  //this is regular method calling method need obj
@@ -69,6 +72,8 @@ public class Fruits {
         System.out.println(apple.color);
         System.out.println(apple.vitamin);
         System.out.println(size);
+        System.out.println(".............");
+
         hello();  //calling method
         apple.price(12);  //this is regular method calling method need obj
 
@@ -85,6 +90,8 @@ public class Fruits {
         System.out.println(mango.color);
         System.out.println(mango.vitamin);
         System.out.println(size);
+        System.out.println("................");
+
         hello();  ////static method calling
         mango.price(6);  //this is regular method, calling method need obj, this is not static
 
@@ -98,7 +105,8 @@ public class Fruits {
         System.out.println(orange.color);
         System.out.println(orange.vitamin);
         System.out.println(size);
-        hello();   //static method calling
+
+          //static method calling
         orange.price(5);  //this is regular method calling not stastc
     }
 }
