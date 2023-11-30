@@ -6,26 +6,25 @@ public class ArrayHomework {
 
     public void homework1() {
 
-        //  1.consider an array of the following numbers:25,26,28,29,35
+        //  1.consider an array of the following numbers:25,26,28,29,30,35
         //    print the sum of even numbers only for the array element
 
-        int[] num = {25, 26, 28, 29, 35};    //create Array
+        int[] num = {25, 26, 28, 29, 30,35};    //create Array
 
         int sum = 0;
 
-        for (int i = 0; i < num.length; i++) {      //use for loop
-            sum = sum + num[i];
-        }
-        System.out.println("sum of element of array: " + sum);
-
-        for (int i = 0; i <= 4; i++) {
+        for (int i = 0; i < 6; i++) {      //use for loop
 
             if (num[i] % 2 == 0) {
-                System.out.println(num[i] + " is an Even Number");
-
+              System.out.println(num[i] + " is an Even Number");;
+                sum = sum + num[i];  //26+0=26 //28+26=54;// 30+54=84
             }
 
         }
+
+        System.out.println("sum of element of array: " + sum);
+
+
     }
     public void homework2(){
 
@@ -49,13 +48,13 @@ public void homework3(){
 
     int sum=0;         //declare sum=0
 
-    for(int i=100;i<=500;i++){             //use for oop
-        sum = sum + i;
+    for(int i=0; i< number.length; i++){             //use for oop
+        sum = sum +number[i];
 
     }
     System.out.println("sum of the element of Array is : " + sum);
 
-    double average= sum/ number.length;    //average use as a variable, and double is data type.
+    int average= sum/ number.length;    //average use as a variable, and double is data type.
 
     System.out.println("average of the element of array is : " + average);
 }
@@ -65,9 +64,9 @@ public void homework3(){
 
         ArrayHomework obj = new ArrayHomework();
 
-       obj.homework1();
-       // obj.homework2();
-      //  obj.homework3();
+      //obj.homework1();
+        //obj.homework2();
+        obj.homework3();
     }
 
 
