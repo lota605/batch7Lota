@@ -9,6 +9,7 @@ public class GreaterNumber {
     public void greater() {
 
         //.take two numbers from user and print the greater number.
+
         Scanner scan = new Scanner(System.in);  //Pre defiend class create by java and we can get External libraries.
         int a = scan.nextInt();
         System.out.println("The first number is " + a);

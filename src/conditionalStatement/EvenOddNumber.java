@@ -9,7 +9,7 @@ public class EvenOddNumber {
 
     public void EvenoddNumber(int number){      //method signature
 
-        if(number % 2 ==0){
+        if(number % 2 ==0){          //here 0 is Remainder. vagses ka reminder bola hoi.
             System.out.println(number + " is an Even Number");
         }
         else if(number % 2 ==1){
@@ -23,10 +23,10 @@ public class EvenOddNumber {
 
     public static void main(String[] args) {
         EvenOddNumber obj = new EvenOddNumber();
-       // obj.EvenoddNumber(13);
+       obj.EvenoddNumber(13);
 
-        GreaterNumber3 obj2 = new GreaterNumber3();
-        obj2.printGreater(4,6,8);
+        //GreaterNumber3 obj2 = new GreaterNumber3();
+       // obj2.printGreater(4,6,8);
 
 
     }
