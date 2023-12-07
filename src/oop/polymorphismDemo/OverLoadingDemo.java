@@ -8,6 +8,8 @@ public class OverLoadingDemo {
     ii.different data type
     iii.different order of parameter
 
+    Overloading is called compile time polymorphism
+
      */
 
 
